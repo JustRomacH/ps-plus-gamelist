@@ -1,0 +1,42 @@
+# Request settings
+cookies = {
+    'AMCVS_BD260C0F53C9733E0A490D45%40AdobeOrg': '1',
+    'at_check': 'true',
+    's_cc': 'true',
+    'eucookiepreference': 'accept',
+    'btpdb.j6lPWC2.X2J0XzJjamRyMm5fc2Vzc2lvbl9pZA': 'ODY0NjMzNTUx',
+    'btpdb.j6lPWC2.dGZjLjc0Nzc5OTU': 'U0VTU0lPTg',
+    '_gcl_au': '1.1.971358963.1657721016',
+    'btpdb.O14oOQO.dGZjLjc0NzgwMDA': 'U0VTU0lPTg',
+    's_fid': '66A87BA5FAA64F8C-070EF8FEF9BCF587',
+    's_sq': '%5B%5BB%5D%5D',
+    'btpdb.O14oOQO.X2J0XzJjamRyMm5fc2Vzc2lvbl9pZA': 'MTYxNDM3NDQ4MQ',
+    'AKA_A2': 'A',
+    'test': 'cookie',
+    '_abck': '81B68D34CCD2EB4E65BFA5FBAD474307~-1~YAAQ6tH1Vwi67vaBAQAAcsG2+AgOE84OD3kzC8zPWSt/H6ot7+Y8PNjTfsfbqYbfIKDv9yJyi5QvfPPhrUlZkwM4yIere1Qia1xHmSDPLlzCvOMwfsBYG9yhjdHC9XkAeChwXyOZd35FDmdO32SD7cyume4sx3lxsjqVL4Xz7EIUu7DCb5Vg0+TDgDg2qKaoHbDA3sHjYsbEmPlUBmHl8TUrrQcXIzB3ecCHT95Y/uUtkGBvnvE1GvE8Tbkw50a0lntK7dBp4GNY8bA+XSS2v2yzHCHrBdr6k8R5GGXvD6vxZGQJB2c5L5sfJy/pNkDju4JTpR3bhJdaF72p672T/5RjZn64E+yfTa6s4Tog48zCFb6Bx3ys29lfltMXewSkx0pZ/HLGpY1BCWDMsx9kH3j+r2khoK4+3yWX5/U7ExCRuOGni/luQDSwZ59P8F9lp5decSCKm9Iz/Su5XQL4BTqWd1xp8w==~-1~-1~-1',
+    'bm_sz': 'C5491A8B1884886907E9470C48290412~YAAQ6tH1Vwm67vaBAQAAcsG2+BDxPzULg0atNk515WeH2KqyU2Qepjlve/VJRiGrnQc0o41FHwuJJjeEZdiYg7stw/dYLz4pc5+bHnsGakRxh5L9wBKvIJM0+9GfnNMlpKCyoGXo1zxcDLkozCP6CpWLTVEfguUJ7fy1saLHcm6GyT8C2jGGHRcvbIqBPtrDM3uqqEf00vYyOSIust2zM8sLLwotJ/oe3x26BvzSYQIMop5z64ABO8reluB+W8KuYQ6+vS/QIe3hP6FpBCfTVeqDHnWxa2O/eNJvxHLoYLbWDHLqrG1bsqlXdqrPY1ulPVDLRbkuGbXTUckeMgoBhIGaAfcg4Ui0lJ2tAUM+mMMQSY4Q0DAOCPdnJX9UHrFeEQUHxgF4G050GZHquCHv305U9byzsncOm/EQ17aCL8FiVmsPdykycAvwAU2n8Kw=~3552817~4273464',
+    'mbox': 'session#bad836f615df4ae7aab5081c00c659e2#1657736992',
+    'gpv_Page': 'web%3Apdc%3Aps-plus%3Agames',
+    'AMCV_BD260C0F53C9733E0A490D45%40AdobeOrg': '-1124106680%7CMCIDTS%7C19187%7CMCMID%7C07822408703083486407201800472171063103%7CMCAID%7CNONE%7CMCOPTOUT-1657742332s%7CNONE%7CvVersion%7C5.2.0',
+    'btpdb.j6lPWC2.dGZjLjc0Nzc5OTc': 'U0VTU0lPTg',
+}
+
+headers = {
+    'authority': 'www.playstation.com',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'accept-language': 'ru,ru-RU;q=0.9,en-US;q=0.8,en;q=0.7',
+    'cache-control': 'max-age=0',
+    # Requests sorts cookies= alphabetically
+    # 'cookie': 'AMCVS_BD260C0F53C9733E0A490D45%40AdobeOrg=1; at_check=true; s_cc=true; eucookiepreference=accept; btpdb.j6lPWC2.X2J0XzJjamRyMm5fc2Vzc2lvbl9pZA=ODY0NjMzNTUx; btpdb.j6lPWC2.dGZjLjc0Nzc5OTU=U0VTU0lPTg; _gcl_au=1.1.971358963.1657721016; btpdb.O14oOQO.dGZjLjc0NzgwMDA=U0VTU0lPTg; s_fid=66A87BA5FAA64F8C-070EF8FEF9BCF587; s_sq=%5B%5BB%5D%5D; btpdb.O14oOQO.X2J0XzJjamRyMm5fc2Vzc2lvbl9pZA=MTYxNDM3NDQ4MQ; AKA_A2=A; test=cookie; _abck=81B68D34CCD2EB4E65BFA5FBAD474307~-1~YAAQ6tH1Vwi67vaBAQAAcsG2+AgOE84OD3kzC8zPWSt/H6ot7+Y8PNjTfsfbqYbfIKDv9yJyi5QvfPPhrUlZkwM4yIere1Qia1xHmSDPLlzCvOMwfsBYG9yhjdHC9XkAeChwXyOZd35FDmdO32SD7cyume4sx3lxsjqVL4Xz7EIUu7DCb5Vg0+TDgDg2qKaoHbDA3sHjYsbEmPlUBmHl8TUrrQcXIzB3ecCHT95Y/uUtkGBvnvE1GvE8Tbkw50a0lntK7dBp4GNY8bA+XSS2v2yzHCHrBdr6k8R5GGXvD6vxZGQJB2c5L5sfJy/pNkDju4JTpR3bhJdaF72p672T/5RjZn64E+yfTa6s4Tog48zCFb6Bx3ys29lfltMXewSkx0pZ/HLGpY1BCWDMsx9kH3j+r2khoK4+3yWX5/U7ExCRuOGni/luQDSwZ59P8F9lp5decSCKm9Iz/Su5XQL4BTqWd1xp8w==~-1~-1~-1; bm_sz=C5491A8B1884886907E9470C48290412~YAAQ6tH1Vwm67vaBAQAAcsG2+BDxPzULg0atNk515WeH2KqyU2Qepjlve/VJRiGrnQc0o41FHwuJJjeEZdiYg7stw/dYLz4pc5+bHnsGakRxh5L9wBKvIJM0+9GfnNMlpKCyoGXo1zxcDLkozCP6CpWLTVEfguUJ7fy1saLHcm6GyT8C2jGGHRcvbIqBPtrDM3uqqEf00vYyOSIust2zM8sLLwotJ/oe3x26BvzSYQIMop5z64ABO8reluB+W8KuYQ6+vS/QIe3hP6FpBCfTVeqDHnWxa2O/eNJvxHLoYLbWDHLqrG1bsqlXdqrPY1ulPVDLRbkuGbXTUckeMgoBhIGaAfcg4Ui0lJ2tAUM+mMMQSY4Q0DAOCPdnJX9UHrFeEQUHxgF4G050GZHquCHv305U9byzsncOm/EQ17aCL8FiVmsPdykycAvwAU2n8Kw=~3552817~4273464; mbox=session#bad836f615df4ae7aab5081c00c659e2#1657736992; gpv_Page=web%3Apdc%3Aps-plus%3Agames; AMCV_BD260C0F53C9733E0A490D45%40AdobeOrg=-1124106680%7CMCIDTS%7C19187%7CMCMID%7C07822408703083486407201800472171063103%7CMCAID%7CNONE%7CMCOPTOUT-1657742332s%7CNONE%7CvVersion%7C5.2.0; btpdb.j6lPWC2.dGZjLjc0Nzc5OTc=U0VTU0lPTg',
+    'dnt': '1',
+    'referer': 'https://www.google.com/',
+    'sec-ch-ua': '".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'cross-site',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36',
+}
